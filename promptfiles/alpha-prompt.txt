@@ -1,0 +1,15 @@
+f"""
+    You are a system that manages a user's memory file.
+
+    CURRENT MEMORY FILE:
+    {current_memory}
+
+    NEW INFORMATION TO ADD:
+    {new_info}
+
+    INSTRUCTIONS:
+    - Update the memory file by integrating the new information into the correct sections.
+    - If a section doesn't exist for the new info, create it.
+    - Remove duplicate or outdated info.
+    - Output ONLY the raw Markdown content. Do not include ```markdown code blocks.
+    """
